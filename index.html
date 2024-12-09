@@ -12,6 +12,34 @@
     />
 
     <style>
+      .email-link {
+        color: rgb(1, 97, 59);
+      }
+
+      .email-link:hover {
+        transition: 500ms;
+        background-color: rgb(1, 97, 59);
+        color: rgb(255, 255, 255);
+      }
+
+      .navbar {
+        background-color: rgb(127, 255, 159);
+      }
+
+      .navbar-brand {
+        font-size: medium;
+      }
+
+      .navbar-brand:hover {
+        transition: 800ms;
+        background-color: rgb(1, 97, 59);
+        color: rgb(255, 255, 255);
+      }
+
+      #reach-out-bar {
+        font-size: small;
+      }
+
       #main {
         background-color: aquamarine;
       }
@@ -31,25 +59,36 @@
   </head>
   <body>
     <div id="navigation-bar">
-      <nav class="navbar fixed-top bg-light mb-3">
+      <nav class="navbar fixed-top">
         <div class="container-fluid">
           <span>
-            <a class="navbar-brand" href="/index.html#main"> Health </a>
+            <a class="navbar-brand px-2 m-0" href="/index.html#main">
+              Health
+            </a>
           </span>
+
           <span>
-            <a class="navbar-brand" href="/index.html#segment-1">Physical</a>
+            <a class="navbar-brand px-2 m-0" href="/index.html#segment-1">
+              Physical
+            </a>
           </span>
+
           <span>
-            <a class="navbar-brand" href="/index.html#segment-2">Mental </a>
+            <a class="navbar-brand px-2 m-0" href="/index.html#segment-2">
+              Mental
+            </a>
           </span>
+
           <span>
-            <a class="navbar-brand" href="/index.html#segment-3"> Spiritual </a>
+            <a class="navbar-brand px-2 m-0" href="/index.html#segment-3">
+              Spiritual
+            </a>
           </span>
         </div>
       </nav>
     </div>
 
-    <div class="mt-5" id="main">
+    <div class="mt-4" id="main">
       <h1 class="p-5 text-center mb-0">New Year Resolution for 2025</h1>
     </div>
 
@@ -81,7 +120,7 @@
       <div class="container text-center">
         <div class="row justify-content-md-center">
           <div class="col-md-auto">
-            <h2 class="m-0">Spirtual Health</h2>
+            <h2 class="m-0">Spiritual Health</h2>
           </div>
 
           <div class="col-md-auto">Variable width content</div>
@@ -101,11 +140,17 @@
     <h2>just testing body</h2>
 
     <div id="reach-out-bar">
-      <nav class="navbar fixed-bottom bg-light">
+      <nav class="navbar fixed-bottom">
         <div class="container-fluid">
           <span>
-            Looking for a health community? Send your request
-            <a href="mailto:tohhuishan12@gmail.com" target="_blank"> here! </a>
+            Looking to join a health community? Send your request
+            <a
+              class="email-link"
+              href="mailto:tohhuishan12@gmail.com"
+              target="_blank"
+            >
+              here!
+            </a>
           </span>
         </div>
       </nav>
